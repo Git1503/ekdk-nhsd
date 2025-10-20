@@ -1,0 +1,10 @@
+
+
+
+    sget-object v0, Lcom/example/ekdk/a;->Companion:Lcom/example/ekdk/a$Companion;
+
+    move-object v1, p0
+
+    check-cast v1, Landroid/app/Activity;
+
+    invoke-virtual {v0, v1}, Lcom/example/ekdk/a$Companion;->show(Landroid/app/Activity;)V
